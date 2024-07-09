@@ -1,0 +1,80 @@
+
+/* font imported from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Applying Azeret font to all the elements*/
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header section starts here */
+.banner {
+    max-width: 1366px;
+    height: 641px;
+    background-image: url(../assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.banner-content {
+    max-width: 948px;
+    height: 553px;
+    margin: 25px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.profile-image {
+    width: 228px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.banner-content h1 {
+    color: rgb(13, 19, 33);
+    font-size: 46px;
+    font-weight: 800;
+    line-height: 65px;
+}
+
+.banner-content p {
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.contact-button button {
+    width: 198px;
+    height: 50px;
+    border-radius: 7px;
+    background: rgb(13, 19, 33);
+}
+
+.contact-button button > a {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    text-decoration: none;
+}
+/* header section ends here */
