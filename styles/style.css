@@ -182,4 +182,45 @@ body {
     max-height: 100%;
     object-fit: contain;
 }
+
+.my-inspiration {
+    width: 1083px;
+    height: 738px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.my-inspiration > h1 {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 35px;
+}
+
+.my-inspiration > p {
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.video-container {
+    width: 1083px;
+    height: 583px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 1022px;
+    height: 523px;
+    border-radius: 15px;
+}
 /* main section ends here */
