@@ -380,3 +380,41 @@ body {
 }
 
 /* main section ends here */
+
+/* footer section starts here */
+footer {
+    max-width: 1366px;
+    height: 95px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.footer-content {
+    width: 1083px;
+    display: flex;
+}
+
+.footer-commitment {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-commitment > h2 {
+    color: rgb(13, 19, 33);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.footer-images {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 23px;
+}
+/* footer section ends here */
