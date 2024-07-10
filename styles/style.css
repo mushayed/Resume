@@ -314,7 +314,7 @@ body {
         linear-gradient(
             0deg, rgb(16, 16, 16) -19.5%,rgba(0, 0, 0, 0.2) 40%
         ),
-        url('/assets/handshake.jpg');
+        url('/assets/facebook.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
